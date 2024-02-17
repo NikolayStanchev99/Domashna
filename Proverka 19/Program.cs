@@ -1,4 +1,4 @@
-﻿Console.WriteLine("Add yor ages");
+﻿Console.WriteLine("Add yor age: ");
 int age = int.Parse(Console.ReadLine());
 
 if (age > 18)
@@ -7,5 +7,5 @@ if (age > 18)
 }
 else
 {
-    Console.WriteLine("minor!");
+    Console.WriteLine("Minor!");
 }
